@@ -74,6 +74,7 @@ namespace eParking
 
         #region Metode
 
+        //Berina Suljic
         /// <summary>
         /// Metoda u kojoj se korisnik pokušava ulogovati na sistem.
         /// Ukoliko se ulogovao više od 99 puta, ne dozvoljava mu se logovanje na sistem.
@@ -82,7 +83,9 @@ namespace eParking
         /// <returns></returns>
         public bool UlogujSe()
         {
-            throw new NotImplementedException();
+            if (brojLogovanja > 99) return false;
+            brojLogovanja++;
+            return true;
         }
 
         #endregion
