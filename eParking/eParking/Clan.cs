@@ -81,8 +81,8 @@ namespace eParking
         public void RezervišiMjesto(Lokacija l)
         {
             ProvjeriJeLiČlanarinaIstekla();
-            if (status == Status.Neaktivna) throw new Exception;
-            if (rezervisanoParkingMjesto != null) throw new Exception;
+            if (status == Status.Neaktivna) throw new Exception();
+            if (rezervisanoParkingMjesto != null) throw new Exception();
             rezervisanoParkingMjesto = new Tuple<int, Lokacija>(l.DajTrenutniBrojSlobodnogMjesta(), l);
             l.ZauzmiMjesto(this);
         }
