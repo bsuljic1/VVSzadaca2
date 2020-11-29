@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.35874439461883406" branch-rate="0.20930232558139536" lines-covered="80" lines-valid="223" branches-covered="18" branches-valid="86" complexity="121" version="0" timestamp="1606659381">
+<coverage line-rate="0.36160714285714285" branch-rate="0.22093023255813954" lines-covered="81" lines-valid="224" branches-covered="19" branches-valid="86" complexity="121" version="0" timestamp="1606661436">
   <sources>
     <source>C:\Users\Korisnik\</source>
   </sources>
   <packages>
-    <package name="eParking" line-rate="0.28061224489795916" branch-rate="0.19047619047619047" complexity="113">
+    <package name="eParking" line-rate="0.2857142857142857" branch-rate="0.20238095238095238" complexity="113">
       <classes>
-        <class name="eParking.Clan" filename="C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\Clan.cs" line-rate="0.4857142857142857" branch-rate="0.4166666666666667" complexity="19">
+        <class name="eParking.Clan" filename="C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\Clan.cs" line-rate="0.5142857142857142" branch-rate="0.5" complexity="19">
           <methods>
             <method name="get_Password" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -39,12 +39,12 @@
                 <line number="50" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="RezervišiMjesto" signature="(...)" line-rate="0.8571428571428571" branch-rate="0.75" complexity="4">
+            <method name="RezervišiMjesto" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="82" hits="3" branch="false" />
-                <line number="83" hits="3" branch="false" />
-                <line number="84" hits="4" branch="true" condition-coverage="100% (2/2)" />
-                <line number="85" hits="0" branch="true" condition-coverage="50% (1/2)" />
+                <line number="82" hits="4" branch="false" />
+                <line number="83" hits="4" branch="false" />
+                <line number="84" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="85" hits="4" branch="true" condition-coverage="100% (2/2)" />
                 <line number="86" hits="2" branch="false" />
                 <line number="87" hits="2" branch="false" />
                 <line number="88" hits="2" branch="false" />
@@ -52,10 +52,10 @@
             </method>
             <method name="ProvjeriJeLiČlanarinaIstekla" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="91" hits="5" branch="false" />
-                <line number="92" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="91" hits="6" branch="false" />
+                <line number="92" hits="6" branch="true" condition-coverage="100% (2/2)" />
                 <line number="93" hits="1" branch="false" />
-                <line number="94" hits="5" branch="false" />
+                <line number="94" hits="6" branch="false" />
               </lines>
             </method>
             <method name="OtkažiRezervaciju" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -107,17 +107,17 @@
             <line number="67" hits="3" branch="false" />
             <line number="68" hits="3" branch="false" />
             <line number="69" hits="3" branch="false" />
-            <line number="82" hits="3" branch="false" />
-            <line number="83" hits="3" branch="false" />
-            <line number="84" hits="4" branch="true" condition-coverage="100% (2/2)" />
-            <line number="85" hits="0" branch="true" condition-coverage="50% (1/2)" />
+            <line number="82" hits="4" branch="false" />
+            <line number="83" hits="4" branch="false" />
+            <line number="84" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="85" hits="4" branch="true" condition-coverage="100% (2/2)" />
             <line number="86" hits="2" branch="false" />
             <line number="87" hits="2" branch="false" />
             <line number="88" hits="2" branch="false" />
-            <line number="91" hits="5" branch="false" />
-            <line number="92" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="91" hits="6" branch="false" />
+            <line number="92" hits="6" branch="true" condition-coverage="100% (2/2)" />
             <line number="93" hits="1" branch="false" />
-            <line number="94" hits="5" branch="false" />
+            <line number="94" hits="6" branch="false" />
             <line number="97" hits="0" branch="false" />
             <line number="98" hits="0" branch="false" />
             <line number="99" hits="0" branch="false" />
@@ -642,7 +642,7 @@
         </class>
       </classes>
     </package>
-    <package name="Testovi za zadatak 1" line-rate="0.9259259259259259" branch-rate="1" complexity="8">
+    <package name="Testovi za zadatak 1" line-rate="0.8928571428571429" branch-rate="1" complexity="8">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\Korisnik\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -688,7 +688,7 @@
             <line number="22" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Testovi_za_zadatak_1.UnitTest2" filename="C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\UnitTest2.cs" line-rate="0.9411764705882353" branch-rate="1" complexity="4">
+        <class name="Testovi_za_zadatak_1.UnitTest2" filename="C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\UnitTest2.cs" line-rate="0.8888888888888888" branch-rate="1" complexity="4">
           <methods>
             <method name="Inicijalizacija" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -715,12 +715,13 @@
                 <line number="32" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="TestPonovneRezervacije" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestPonovneRezervacije" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
                 <line number="36" hits="1" branch="false" />
                 <line number="37" hits="1" branch="false" />
                 <line number="38" hits="1" branch="false" />
-                <line number="40" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
@@ -741,7 +742,8 @@
             <line number="36" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
-            <line number="40" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="0" branch="false" />
           </lines>
         </class>
       </classes>
