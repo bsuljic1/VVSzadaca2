@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eParking", "eParking\eParki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit Testovi", "Unit Testovi\Unit Testovi.csproj", "{35D6A4D2-CB40-4CFC-B186-4AD79CAA2698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi za zadatak 1", "Testovi za zadatak 1\Testovi za zadatak 1.csproj", "{CF99904A-DA6E-4791-A406-821FA7A4B37B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testovi za zadatak 1", "Testovi za zadatak 1\Testovi za zadatak 1.csproj", "{CF99904A-DA6E-4791-A406-821FA7A4B37B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi za zadatak 3", "Testovi za zadatak 3\Testovi za zadatak 3.csproj", "{8641D28B-057A-4A3C-9377-E1E7D8AE5777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8641D28B-057A-4A3C-9377-E1E7D8AE5777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8641D28B-057A-4A3C-9377-E1E7D8AE5777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8641D28B-057A-4A3C-9377-E1E7D8AE5777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8641D28B-057A-4A3C-9377-E1E7D8AE5777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
