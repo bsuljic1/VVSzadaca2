@@ -98,17 +98,16 @@ namespace eParking
             {
                 throw new Exception();
             }
-            if(korisnici.Contains(k))
+            if(((Clan)k).RezervisanoParkingMjesto != null) 
             {
                 throw new Exception();
             }
             try
             {
                 l.DajTrenutniBrojSlobodnogMjesta();
-                korisnici.Add(k);
-                lokacije.Add(l);
+                l.ZauzmiMjesto((Clan)k);
             } catch (InvalidOperationException e) {
-                Console.WriteLine("Nema slobodnih mjesta!", e.Source);
+                throw new Exception();
             }
         }
 
