@@ -98,9 +98,9 @@ namespace eParking
         public void ZauzmiMjesto(Clan c)
         {
             c.ProvjeriJeLiČlanarinaIstekla();
-            if (brojač == kapacitet - 1 || c.Status ==  Status.Neaktivna) throw new Exception();
-            
-            brojač++;
+            if (c.Status == Status.Neaktivna) throw new Exception();
+            if (brojač < kapacitet) brojač++;
+            else throw new Exception();
         }
 
         public void OslobodiMjesto()
