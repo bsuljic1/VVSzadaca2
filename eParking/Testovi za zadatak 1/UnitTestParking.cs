@@ -28,8 +28,9 @@ namespace Testovi_za_zadatak_1
         [TestMethod]
         public void TestUspjesneRezervacije()
         {
-            parking.RezervišiParking(clan, lokacija1);
-            Assert.AreEqual(clan.RezervisanoParkingMjesto.Item2, lokacija1);
+            Clan clan1 = new Clan(new DateTime(2022, 2, 22));
+            parking.RezervišiParking(clan1, lokacija1);
+            Assert.AreEqual(clan1.RezervisanoParkingMjesto.Item2, lokacija1);
         }
 
 
@@ -56,7 +57,7 @@ namespace Testovi_za_zadatak_1
         }
 
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException))]
+        [ExpectedException(typeof(Exception))]
         public void TestRezervacijeLokacijaZauzeta()
         {
             lokacija1.Kapacitet = 0;
