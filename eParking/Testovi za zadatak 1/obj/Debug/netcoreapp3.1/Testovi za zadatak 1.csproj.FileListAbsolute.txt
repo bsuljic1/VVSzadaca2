@@ -191,3 +191,4 @@ C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\n
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.dll
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.pdb
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.genruntimeconfig.cache
+C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\bin\Debug\netcoreapp3.1\nunit.framework.dll
