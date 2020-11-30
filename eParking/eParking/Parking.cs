@@ -113,7 +113,16 @@ namespace eParking
 
         public double IzračunajTrenutnuZaradu()
         {
-            throw new NotImplementedException();
+            double zarada = 0;
+            foreach(Korisnik k in korisnici)
+            {
+                foreach(Lokacija l in lokacije)
+                {
+                    if (l.Ulice.Count == 0) throw new ArgumentNullException("Svaka lokacija mora imati barem jednu ulicu!");
+                    if (l.Equals(((Clan)k).RezervisanoParkingMjesto.Item2)) zarada += l.Cijena / l.Ulice.Count;
+                }
+            }
+            return zarada;
         }
 
         public void OslobodiParkingMjesto(ITransakcija transakcija, Clan c)

@@ -284,3 +284,5 @@ C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreap
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreapp3.1\Unit Testovi.csproj.CopyComplete
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreapp3.1\Unit Testovi.dll
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreapp3.1\Unit Testovi.pdb
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreapp3.1\Unit Testovi.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Unit Testovi\obj\Debug\netcoreapp3.1\Unit Testovi.genruntimeconfig.cache
