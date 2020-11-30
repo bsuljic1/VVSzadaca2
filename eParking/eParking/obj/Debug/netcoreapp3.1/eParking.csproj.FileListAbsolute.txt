@@ -24,3 +24,4 @@ C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\obj\Debug\netcoreapp3.1
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\bin\Debug\netcoreapp3.1\eParking.deps.json
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\bin\Debug\netcoreapp3.1\eParking.dll
 C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\bin\Debug\netcoreapp3.1\eParking.pdb
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\eParking\obj\Debug\netcoreapp3.1\eParking.csproj.CoreCompileInputs.cache
