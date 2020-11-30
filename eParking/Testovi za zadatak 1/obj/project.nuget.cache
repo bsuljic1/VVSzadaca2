@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K9IReksYxbqhwnHdtNJZj8KIQo57H6JFuH3aVEn0PGJcf10BkKPNq0jNXibw+juWZq7zrwHIuVNS6y280nedaA==",
+  "dgSpecHash": "uIYOxbgAwR8NpvMdu4t6CnM9sTKTayCdRss15YOu+MktK14IAJ8IfKjWQL5J3EmuhGGbtjGLfvB708UgqioNhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,10 @@
     "C:\\Users\\Korisnik\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\Korisnik\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\Korisnik\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

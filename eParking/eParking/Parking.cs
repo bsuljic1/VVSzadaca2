@@ -82,6 +82,7 @@ namespace eParking
                 Korisnici.Add(k);
         }
 
+        ///Elma
         /// <summary>
         /// Metoda u kojoj se vrši rezervisanje parking mjesta za željenu lokaciju korisnika.
         /// Ukoliko korisnik nije član, ne smije mu se omogućiti rezervacija, kao ni u
@@ -93,7 +94,21 @@ namespace eParking
         /// <param name="l"></param>
         public void RezervišiParking(Korisnik k, Lokacija l)
         {
-            throw new NotImplementedException();
+            if (k.GetType() != typeof(Clan))
+            {
+                throw new Exception();
+            }
+            if(((Clan)k).RezervisanoParkingMjesto != null) 
+            {
+                throw new Exception();
+            }
+            try
+            {
+                l.DajTrenutniBrojSlobodnogMjesta();
+                ((Clan)k).RezervišiMjesto(l);
+            } catch (InvalidOperationException e) {
+                Console.WriteLine("Nema slobodnih mjesta!", e);
+            }
         }
 
         public double IzračunajTrenutnuZaradu()

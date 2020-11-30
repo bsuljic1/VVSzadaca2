@@ -113,6 +113,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
