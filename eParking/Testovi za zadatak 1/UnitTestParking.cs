@@ -10,16 +10,14 @@ namespace Testovi_za_zadatak_1
     public class UnitTestParking
     {
         static Parking parking;
-        [TestInitialize()]
+        static Korisnik korisnik;
+        static Lokacija lokacija1;
+        [ClassInitialize()]
         public static void Inicijalizacija(TestContext context)
         {
+            korisnik = new Korisnik();
             parking = new Parking();
-            List<string> listaUlica = new List<string> { "Nurije Rasidkadica" };
-            Lokacija lokacija1 = new Lokacija("Gorazde", listaUlica, 3, 50);
-            parking.RadSaLokacijom(lokacija1, 0);
-
-            Korisnik korisnik = new Korisnik();
-            parking.DodajKorisnika(korisnik, true);
+            lokacija1 = new Lokacija("Gorazde", new List<string> { "Nurije Rasidkadica" }, 3, 50);
         }
 
         /// <summary>
@@ -28,6 +26,8 @@ namespace Testovi_za_zadatak_1
         [TestMethod]
         public void TestUspjesneRezervacije()
         {
+            parking.RadSaLokacijom(lokacija1, 0);
+            parking.DodajKorisnika(korisnik, true);
             Clan c = (Clan)parking.Korisnici[0];
             Lokacija l = parking.Lokacije[0];
             parking.RezervišiParking(c, l);
@@ -42,9 +42,11 @@ namespace Testovi_za_zadatak_1
         [ExpectedException(typeof(Exception))]
         public void TestRezervacijeKorisnikNijeClan()
         {
-            Korisnik korisnik = new Korisnik();
+            parking.RadSaLokacijom(lokacija1, 0);
+            parking.DodajKorisnika(korisnik, true);
+            Korisnik korisnik1 = new Korisnik();
             Lokacija l = parking.Lokacije[0];
-            parking.RezervišiParking(korisnik, l);
+            parking.RezervišiParking(korisnik1, l);
         }
 
         /// <summary>
@@ -54,6 +56,8 @@ namespace Testovi_za_zadatak_1
         [ExpectedException(typeof(Exception))]
         public void TestRezervacijeKorisnikVecRezervisao()
         {
+            parking.RadSaLokacijom(lokacija1, 0);
+            parking.DodajKorisnika(korisnik, true);
             Clan c = (Clan)parking.Korisnici[0];
             c.RezervišiMjesto(new Lokacija("ime", new List<string> { "ulica" }, 2, 50));
             Lokacija l = parking.Lokacije[0];
@@ -64,6 +68,8 @@ namespace Testovi_za_zadatak_1
         [ExpectedException(typeof(Exception))]
         public void TestRezervacijeLokacijaZauzeta()
         {
+            parking.RadSaLokacijom(lokacija1, 0);
+            parking.DodajKorisnika(korisnik, true);
             Clan c = (Clan)parking.Korisnici[0];
             Lokacija l = parking.Lokacije[0];
             l.Kapacitet = 0;
