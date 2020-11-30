@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {}
+    "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+    "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
         "projectName": "eParking",
-        "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
-        "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\obj\\",
+        "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {
+    "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
         "projectName": "Unit Testovi",
-        "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
-        "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\obj\\",
+        "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Unit Testovi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
-                "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
+              "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
               }
             }
           }

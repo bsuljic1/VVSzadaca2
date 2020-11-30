@@ -66,6 +66,7 @@ namespace eParking
         {
             aktivnaDo = endDate;
             status = Status.Aktivna;
+
         }
 
         #endregion
