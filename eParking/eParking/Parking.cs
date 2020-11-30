@@ -107,7 +107,7 @@ namespace eParking
                 l.DajTrenutniBrojSlobodnogMjesta();
                 l.ZauzmiMjesto((Clan)k);
             } catch (InvalidOperationException e) {
-                throw new Exception();
+                Console.WriteLine("Nema slobodnih mjesta!", e);
             }
         }
 
