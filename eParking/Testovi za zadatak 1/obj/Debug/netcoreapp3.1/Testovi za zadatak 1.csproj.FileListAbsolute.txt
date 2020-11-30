@@ -191,3 +191,8 @@ C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\n
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.dll
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.pdb
 C:\Users\berin\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.genruntimeconfig.cache
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.genruntimeconfig.cache
