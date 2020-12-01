@@ -300,3 +300,4 @@ C:\Users\User\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\ne
 C:\Users\User\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.dll
 C:\Users\User\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.pdb
 C:\Users\User\source\repos\VVSzadaca2\eParking\Testovi za zadatak 1\obj\Debug\netcoreapp3.1\Testovi za zadatak 1.genruntimeconfig.cache
+C:\Users\Korisnik\Documents\VVSzadaca2\eParking\Testovi za zadatak 1\bin\Debug\netcoreapp3.1\nunit.framework.dll
