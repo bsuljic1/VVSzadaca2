@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {}
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
         "projectName": "eParking",
-        "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
         "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\obj\\",
+        "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",

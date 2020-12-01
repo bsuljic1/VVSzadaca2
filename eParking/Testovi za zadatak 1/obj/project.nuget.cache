@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mmbEEUx64K2B82MvxyITnquuumec1vXRLCT22PJ8l377/aSxyilCHjky6aY/h+p3x87uabVfsmEk/x498Kq6rQ==",
+  "dgSpecHash": "3YE9WfLJHqjTRFMZb+FFeG25CkFeyIu2zfF8YQodBDK4+FK/65eBWQz28Jz0TYIraSM7TtqqURZ4d8wu7Uy+TQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
+  "projectFilePath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berin\\.nuget\\packages\\coverlet.collector\\1.0.1\\coverlet.collector.1.0.1.nupkg.sha512",
     "C:\\Users\\berin\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

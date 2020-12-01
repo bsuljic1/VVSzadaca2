@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WiMVwpZKPxV0B+DqsJTdXxSseC6e7hYMSBpBxGGzZr8Pgdzf85WdvCo4482LqdreoevIecSxY5XM7P+hhavtEw==",
+  "dgSpecHash": "jY8bAei1iIkCOQnC+v8vZQz+2G5muXjGiniZdGGXSDkTAfhvEZpWZod+1a8NWFglupPIIIi2Xag7vFvBOagpXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
+  "projectFilePath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berin\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\berin\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

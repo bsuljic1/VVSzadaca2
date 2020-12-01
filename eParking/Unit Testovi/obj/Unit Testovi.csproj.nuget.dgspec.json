@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {}
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
         "projectName": "eParking",
-        "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+        "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
         "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\obj\\",
+        "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
+        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
         "projectName": "Unit Testovi",
-        "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
+        "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\Unit Testovi.csproj",
         "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Unit Testovi\\obj\\",
+        "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit Testovi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
-                "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
+              "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+                "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
               }
             }
           }
