@@ -5439,19 +5439,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
+    "C:\\Users\\berin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
+      "projectUniqueName": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
       "projectName": "Testovi za zadatak 1",
-      "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\obj\\",
+      "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\Testovi za zadatak 1.csproj",
+      "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\Testovi za zadatak 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5465,8 +5465,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
-              "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
+            "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+              "projectPath": "C:\\Users\\berin\\Source\\Repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
             }
           }
         }
