@@ -10,6 +10,14 @@ namespace Unit_Testovi
     {
         #region Zamjenski Objekti
 
+        public class Stub : ITransakcija
+        {
+            public DateTime DajVrijemeDolaska(Vozilo vozilo)
+            {
+                return DateTime.Now.AddHours(-25);
+            }
+        }
+
         [TestMethod]
         public void TestZamjenskiObjekat()
         {
@@ -21,7 +29,7 @@ namespace Unit_Testovi
 
             p.RezervišiParking(c, l);
 
-            ITransakcija transakcija = new Transakcija();
+            ITransakcija transakcija = new Stub();
 
             p.OslobodiParkingMjesto(transakcija, c);
 

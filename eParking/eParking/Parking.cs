@@ -104,7 +104,7 @@ namespace eParking
             }
             try
             {
-                l.DajTrenutniBrojSlobodnogMjesta();
+                ///l.DajTrenutniBrojSlobodnogMjesta();
                 ((Clan)k).RezervišiMjesto(l);
             } catch (InvalidOperationException e) {
                 throw e;

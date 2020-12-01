@@ -87,7 +87,7 @@ namespace eParking
             return brojač;
         }
 
-        //Amina Šiljak
+        ///Amina Šiljak
         /// <summary>
         /// Metoda u kojoj se vrši rezervisanje parking mjesta za klijenta.
         /// Ukoliko su sva mjesta zauzeta ili je klijentu istekla članarina, baca se
@@ -98,7 +98,7 @@ namespace eParking
         {
             c.ProvjeriJeLiČlanarinaIstekla();
             if (c.Status == Status.Neaktivna) throw new Exception();
-            if (brojač < kapacitet) brojač++;
+            if (brojač < kapacitet) DajTrenutniBrojSlobodnogMjesta();
             else throw new Exception();
         }
 
