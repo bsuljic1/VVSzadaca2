@@ -5733,19 +5733,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\berin\\.nuget\\packages\\": {}
+    "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\Data driven testovi za zadatak 3.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\Data driven testovi za zadatak 3.csproj",
       "projectName": "Data driven testovi za zadatak 3",
-      "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\Data driven testovi za zadatak 3.csproj",
-      "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\obj\\",
+      "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\Data driven testovi za zadatak 3.csproj",
+      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\Data driven testovi za zadatak 3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\berin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5759,8 +5759,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
-              "projectPath": "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
+            "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj": {
+              "projectPath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj"
             }
           }
         }
