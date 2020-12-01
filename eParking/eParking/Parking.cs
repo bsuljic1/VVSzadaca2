@@ -100,12 +100,9 @@ namespace eParking
             }
             if(((Clan)k).RezervisanoParkingMjesto != null) 
             {
-               
                 throw new Exception();
             }
-            try
-            {
-                ///l.DajTrenutniBrojSlobodnogMjesta();
+            try{
                 ((Clan)k).RezervišiMjesto(l);
             } catch (InvalidOperationException e) {
                 throw e;
