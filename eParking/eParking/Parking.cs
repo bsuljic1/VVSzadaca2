@@ -100,6 +100,7 @@ namespace eParking
             }
             if(((Clan)k).RezervisanoParkingMjesto != null) 
             {
+               
                 throw new Exception();
             }
             try

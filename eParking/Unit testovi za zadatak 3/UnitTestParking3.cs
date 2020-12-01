@@ -9,13 +9,13 @@ namespace Unit_testovi_za_zadatak_3
     [TestClass]
     public class UnitTestParking3
     {
-        static Parking parking;
-        static Clan clan;
-        static Lokacija lokacija1;
+        Parking parking;
+        Clan clan;
+        Lokacija lokacija1;
 
 
-        [ClassInitialize()]
-        public static void Inicijalizacija(TestContext context)
+        [TestInitialize()]
+        public void Inicijalizacija()
         {
             clan = new Clan(new DateTime(2022, 2, 22));
             parking = new Parking();
@@ -24,6 +24,7 @@ namespace Unit_testovi_za_zadatak_3
             parking.DodajKorisnika(clan, true);
 
         }
+
 
         /// <summary>
         /// Testira dodavanje korisnika koji nije član
@@ -108,23 +109,27 @@ namespace Unit_testovi_za_zadatak_3
         [TestMethod]
         public void TestProracunTrenutneZarade()
         {
+            parking = new Parking();
             Lokacija novaLokacija1 = new Lokacija("Bugojno", new List<string> { "Lamele" }, 1, 70);
             Lokacija novaLokacija2 = new Lokacija("Travnik", new List<string> { "Kalibunar 1" },1, 70);
             Lokacija novaLokacija3 = new Lokacija("Goražde", new List<string> { "ulica"}, 1, 70);
-
-            Clan noviClan1 = new Clan(new DateTime(2020, 12, 12));
+            //dodavanje clanova
+            Clan noviClan1 = new Clan("user1", "user1user1111", "adresa1", new Vozilo("Automobil", "111-K-111", 4), new DateTime(2021, 12, 5));
             parking.DodajKorisnika(noviClan1, true);
-            Clan noviClan2 = new Clan(new DateTime(2020, 12, 12));
+            Clan noviClan2 = new Clan("user2", "user2user2222", "adresa2", new Vozilo("Automobil", "222-K-222", 4), new DateTime(2021, 12, 5));
             parking.DodajKorisnika(noviClan2, true);
-            Clan noviClan3 = new Clan(new DateTime(2020, 12, 12));
+            Clan noviClan3 = new Clan("user3", "user3user3333", "adresa3", new Vozilo("Automobil", "333-K-333", 4), new DateTime(2021, 12, 5));
             parking.DodajKorisnika(noviClan3, true);
+            //dodavanje lokacija
+            parking.RadSaLokacijom(novaLokacija1, 0);
+            parking.RadSaLokacijom(novaLokacija2, 0);
+            parking.RadSaLokacijom(novaLokacija3, 0);
+            //rezervisanje
             parking.RezervišiParking(noviClan1, novaLokacija1);
             parking.RezervišiParking(noviClan2, novaLokacija2);
             parking.RezervišiParking(noviClan3, novaLokacija3);
-            parking.Lokacije.Add(novaLokacija1);
-            parking.Lokacije.Add(novaLokacija2);
-            parking.Lokacije.Add(novaLokacija3);
-            Assert.AreEqual(1.0, parking.IzračunajTrenutnuZaradu());
+            
+            Assert.AreEqual(3, parking.IzračunajTrenutnuZaradu());
         }
         }
 }
