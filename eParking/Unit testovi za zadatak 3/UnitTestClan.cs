@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-namespace Data_driven_testovi_za_zadatak_3
+namespace Unit_testovi_za_zadatak_3
 {
 
     [TestClass]

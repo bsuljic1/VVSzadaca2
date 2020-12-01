@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit Testovi", "Unit Testov
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testovi za zadatak 1", "Testovi za zadatak 1\Testovi za zadatak 1.csproj", "{CF99904A-DA6E-4791-A406-821FA7A4B37B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data driven testovi za zadatak 3", "Data driven testovi za zadatak 3\Data driven testovi za zadatak 3.csproj", "{C2D91B27-64E9-49AB-954C-3861CEED0E5B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit testovi za zadatak 3", "Unit testovi za zadatak 3\Unit testovi za zadatak 3.csproj", "{15060B7B-1096-46A6-98FA-104EF853B8B8}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF99904A-DA6E-4791-A406-821FA7A4B37B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2D91B27-64E9-49AB-954C-3861CEED0E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2D91B27-64E9-49AB-954C-3861CEED0E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2D91B27-64E9-49AB-954C-3861CEED0E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2D91B27-64E9-49AB-954C-3861CEED0E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15060B7B-1096-46A6-98FA-104EF853B8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15060B7B-1096-46A6-98FA-104EF853B8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15060B7B-1096-46A6-98FA-104EF853B8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU

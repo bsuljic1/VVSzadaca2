@@ -1,0 +1,238 @@
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.000, 2654146333589, datacollector.dll, Version: 16.8.0-release-20201022-02
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.011, 2654146387575, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,8190,--parentprocessid,8696,--diag,C:\Users\berin\source\repos\VVSzadaca2\eParking\Unit testovi za zadatak 3\bin\Debug\fine-code-coverage\_outputfolder\diagnostics.datacollector.20-12-01_17-08-39_70702_4.log,--tracelevel,4
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.011, 2654146391572, datacollector.dll, DataCollector: Monitoring parent process with id: '8696'
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.031, 2654146585029, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:8190 
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.075, 2654147034664, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:40.092, 2654147196030, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:40.092, 2654147200387, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.234, 2654148622329, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.241, 2654148694173, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit testovi za zadatak 3\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\5.0.100\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.100\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit testovi za zadatak 3\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Users\\berin\\source\\repos\\VVSzadaca2\\eParking\\Unit testovi za zadatak 3\\bin\\Debug\\fine-code-coverage\\Unit testovi za zadatak 3.dll"
+  ]
+}
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.308, 2654149362565, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.310, 2654149376828, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\5.0.100\Extensions'.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.310, 2654149379472, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.321, 2654149488568, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.322, 2654149496171, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.322, 2654149499426, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.322, 2654149502058, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.324, 2654149515593, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\5.0.100\Extensions,C:\Program Files\dotnet\sdk\5.0.100
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.326, 2654149544153, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.327, 2654149549969, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.327, 2654149553161, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.328, 2654149555815, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.328, 2654149558603, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.328, 2654149561832, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.100\Extensions,C:\Program Files\dotnet\sdk\5.0.100
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.329, 2654149565372, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.100\Extensions,C:\Program Files\dotnet\sdk\5.0.100
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.330, 2654149575166, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.332, 2654149595818, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 9524, 1, 2020/12/01, 17:08:40.333, 2654149612593, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.335, 2654149633853, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.337, 2654149646821, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 9524, 1, 2020/12/01, 17:08:40.340, 2654149677823, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.341, 2654149685394, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.100\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.341, 2654149688161, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.341, 2654149690449, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.341, 2654149692667, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.342, 2654149694840, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:40.342, 2654149697585, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.344, 2654149715311, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 9524, 1, 2020/12/01, 17:08:40.344, 2654149723025, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.353, 2654149807982, datacollector.dll, Listening on Endpoint : 127.0.0.1:8192
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.366, 2654149937445, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:40.405, 2654150328824, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 21800
+}
+TpTrace Information: 0 : 9524, 6, 2020/12/01, 17:08:40.781, 2654154090891, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 9524, 6, 2020/12/01, 17:08:40.781, 2654154094353, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.540, 2654161682044, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.614, 2654162421107, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.621, 2654162490837, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestValidnihPodataka - be64f80e-8e7f-2c6d-d148-784e2543f688' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.729, 2654163572831, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.735, 2654163627259, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.742, 2654163703796, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestValidnihPodataka - be64f80e-8e7f-2c6d-d148-784e2543f688' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.770, 2654163979620, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.771, 2654163991792, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.772, 2654163998748, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNevalidnihPodataka - 8ee6f11a-c9e4-e41b-6771-2e4c943e4e72' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.784, 2654164122374, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.785, 2654164133663, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.786, 2654164139814, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNevalidnihPodataka - 8ee6f11a-c9e4-e41b-6771-2e4c943e4e72' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.854, 2654164819870, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.855, 2654164831118, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.856, 2654164836680, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeClan - bb5a5e95-d95f-e0eb-4151-6f16026b2513' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.861, 2654164894261, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.863, 2654164910543, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.864, 2654164918454, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeClan - bb5a5e95-d95f-e0eb-4151-6f16026b2513' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.867, 2654164953761, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.868, 2654164964647, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.872, 2654164995317, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOtkazivanjeRezervacije - 518e9db9-251f-db1d-2895-9bab920b2162' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.882, 2654165103002, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.884, 2654165115316, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.884, 2654165122059, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOtkazivanjeRezervacije - 518e9db9-251f-db1d-2895-9bab920b2162' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.887, 2654165152162, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.888, 2654165162204, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.889, 2654165168140, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeKorisnik - 563ec77e-0e1d-fa5a-f4db-34eb66d65a95' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.894, 2654165218801, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.895, 2654165229340, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.896, 2654165235331, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeKorisnik - 563ec77e-0e1d-fa5a-f4db-34eb66d65a95' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.899, 2654165272729, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.900, 2654165282812, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.901, 2654165288262, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravnoKorisničkoIme - 4e1e07b3-b3a2-0f80-c137-52e2121a851b' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.904, 2654165320012, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.905, 2654165331106, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.906, 2654165336885, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravnoKorisničkoIme - 4e1e07b3-b3a2-0f80-c137-52e2121a851b' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.909, 2654165367123, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.910, 2654165377685, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.911, 2654165385577, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravnaAdresa - 81ea25e3-ac58-d845-71bf-22054640c8fb' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.914, 2654165418908, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.915, 2654165428695, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.915, 2654165434399, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravnaAdresa - 81ea25e3-ac58-d845-71bf-22054640c8fb' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.918, 2654165461660, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.919, 2654165471923, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.920, 2654165478558, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestValidnihPodatakaLokacija - 15e772ff-00bc-3cf5-c95b-603cc431ded3' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.925, 2654165530396, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.926, 2654165540708, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.927, 2654165546780, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestValidnihPodatakaLokacija - 15e772ff-00bc-3cf5-c95b-603cc431ded3' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.947, 2654165749182, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.948, 2654165757057, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.948, 2654165761224, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNevalidnihPodatakaLokacija - 2ae9e424-1693-2564-f3d8-c7f278dd2100' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.953, 2654165812138, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.954, 2654165819172, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.954, 2654165822799, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNevalidnihPodatakaLokacija - 2ae9e424-1693-2564-f3d8-c7f278dd2100' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.961, 2654165888588, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.962, 2654165895173, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.962, 2654165898716, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestIzuzetakPriSvimZauzetimMjestima - 2269038b-806e-d8f3-3a02-e3fa9c8f6097' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.964, 2654165919480, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.965, 2654165924860, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.965, 2654165928234, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestIzuzetakPriSvimZauzetimMjestima - 2269038b-806e-d8f3-3a02-e3fa9c8f6097' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.966, 2654165944518, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.967, 2654165949978, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.967, 2654165953525, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOslobodiZauzetoMjesto - 56124a4b-37b5-7595-e0c5-31fe17ca7e88' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.969, 2654165970265, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.970, 2654165976115, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.970, 2654165979462, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOslobodiZauzetoMjesto - 56124a4b-37b5-7595-e0c5-31fe17ca7e88' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.984, 2654166124648, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.985, 2654166130133, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.985, 2654166134086, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeLokacija - 4d6f1e36-4247-8e56-05c3-5225739ff413' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.988, 2654166158936, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.989, 2654166164921, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.989, 2654166168110, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetodeLokacija - 4d6f1e36-4247-8e56-05c3-5225739ff413' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.991, 2654166190321, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.992, 2654166197521, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.992, 2654166201842, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatNaziva - 23f5b963-01ef-76bc-dc17-91b9b5e9d6ed' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.995, 2654166226627, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.995, 2654166231787, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.996, 2654166234832, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatNaziva - 23f5b963-01ef-76bc-dc17-91b9b5e9d6ed' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.997, 2654166250053, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.997, 2654166254606, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:41.998, 2654166257492, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatCijene - b9e66fe0-5c46-25b4-737f-b18766acdae0' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.000, 2654166276730, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.000, 2654166282062, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.001, 2654166286573, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatCijene - b9e66fe0-5c46-25b4-737f-b18766acdae0' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.002, 2654166303812, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.003, 2654166309493, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.003, 2654166312876, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatKapaciteta - a9e5fb04-032c-4b0b-8a9d-e80aa22aa2b3' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.005, 2654166334457, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.007, 2654166346286, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.007, 2654166351823, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatKapaciteta - a9e5fb04-032c-4b0b-8a9d-e80aa22aa2b3' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.009, 2654166369403, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.010, 2654166377931, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.010, 2654166382952, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestKonstruktorSaIzuzetkom - af3c8bdc-51d8-d8b9-94bb-8c15e59ab9a3' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.013, 2654166405160, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.013, 2654166411182, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.013, 2654166414543, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestKonstruktorSaIzuzetkom - af3c8bdc-51d8-d8b9-94bb-8c15e59ab9a3' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.015, 2654166430757, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.016, 2654166437157, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.016, 2654166440323, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodavanjeKorisnikaKojiNijeČlan - 0a8968fa-e1bd-f74f-687b-ddc0ff8bb70d' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.021, 2654166485484, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.021, 2654166491866, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.022, 2654166495296, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodavanjeKorisnikaKojiNijeČlan - 0a8968fa-e1bd-f74f-687b-ddc0ff8bb70d' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.023, 2654166512659, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.024, 2654166522343, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.025, 2654166527007, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija0 - 516fe108-7ee7-e222-709a-f13dcea79064' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.028, 2654166556662, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.029, 2654166565374, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.029, 2654166569871, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija0 - 516fe108-7ee7-e222-709a-f13dcea79064' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.031, 2654166589243, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.032, 2654166597757, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.032, 2654166602235, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija1 - 6530be2d-212a-61e6-f446-c65ed3150093' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.035, 2654166629123, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.036, 2654166637610, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.036, 2654166641843, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija1 - 6530be2d-212a-61e6-f446-c65ed3150093' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.038, 2654166662165, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.039, 2654166670489, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.040, 2654166675440, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija2 - 3b1a245e-f14e-83af-1e7d-c1a4d00f8db2' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.042, 2654166704456, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.043, 2654166712499, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.044, 2654166717961, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaLokacijomOpcija2 - 3b1a245e-f14e-83af-1e7d-c1a4d00f8db2' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.052, 2654166799309, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.053, 2654166806932, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.053, 2654166810852, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeuspjesneRezervacije - b4d1c6cd-f010-d3ab-f1ae-cc8592379216' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.057, 2654166849656, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.058, 2654166857421, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.058, 2654166861648, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeuspjesneRezervacije - b4d1c6cd-f010-d3ab-f1ae-cc8592379216' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.061, 2654166885479, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.062, 2654166895198, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.062, 2654166900011, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestLokacijaBezUlice - e0dd7e21-2fe0-7a34-b1ed-9e9bea330809' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.066, 2654166944412, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.067, 2654166954098, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.068, 2654166959168, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestLokacijaBezUlice - e0dd7e21-2fe0-7a34-b1ed-9e9bea330809' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.070, 2654166984699, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.072, 2654166997589, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.072, 2654167004157, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProracunTrenutneZarade - f6bb6ab9-cd39-52c3-84f2-82354265b828' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.122, 2654167499668, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.123, 2654167509357, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.124, 2654167514904, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProracunTrenutneZarade - f6bb6ab9-cd39-52c3-84f2-82354265b828' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.125, 2654167533435, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.126, 2654167541788, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.127, 2654167545723, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajVrijemeDolaskaIzuzetak - c94af2e9-fa12-4ca2-a6e6-a6a0c0946ec7' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.129, 2654167573605, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.131, 2654167587429, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.131, 2654167592976, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajVrijemeDolaskaIzuzetak - c94af2e9-fa12-4ca2-a6e6-a6a0c0946ec7' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.134, 2654167615561, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.134, 2654167622110, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.135, 2654167625386, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatTablica - 957783c0-6a90-c83e-bc7a-6fb0e86fc13d' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.137, 2654167650260, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.138, 2654167661795, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.139, 2654167667707, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatTablica - 957783c0-6a90-c83e-bc7a-6fb0e86fc13d' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.142, 2654167694861, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.142, 2654167702211, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.143, 2654167706254, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNepostojećaVrstaVozila - d1354bd4-d16d-dca4-9295-3099085de204' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.145, 2654167727989, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.146, 2654167736392, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.146, 2654167740557, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNepostojećaVrstaVozila - d1354bd4-d16d-dca4-9295-3099085de204' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.148, 2654167757706, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.148, 2654167763902, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.149, 2654167767042, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatSjedišta - 2c92243a-d6d2-7bd1-b694-98a90af8afe6' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.151, 2654167792616, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.152, 2654167802016, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.153, 2654167807038, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestNeispravanFormatSjedišta - 2c92243a-d6d2-7bd1-b694-98a90af8afe6' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.155, 2654167825539, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.155, 2654167832120, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.156, 2654167835425, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetode - 4d2821b0-3bdf-cfb9-b2fb-2b3ca690f6c3' started.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.158, 2654167856618, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.158, 2654167863086, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.159, 2654167867797, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGetMetode - 4d2821b0-3bdf-cfb9-b2fb-2b3ca690f6c3' completed
+TpTrace Information: 0 : 9524, 4, 2020/12/01, 17:08:42.165, 2654167931415, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.253, 2654168805670, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.253, 2654168814361, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.254, 2654168823161, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector.resources: Resolving assembly.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.255, 2654168827337, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector.resources: Failed to load assembly.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.255, 2654168833641, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector.resources: Resolving assembly.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.256, 2654168835772, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector.resources: Resolved from cache.
+TpTrace Warning: 0 : 9524, 1, 2020/12/01, 17:08:42.256, 2654168839149, datacollector.dll, Data collector 'datacollector://microsoft/TestPlatform/Extensions/Blame/v1' logged the following warning: All tests finished running, Sequence file will not be generated
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.256, 2654168844162, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.257, 2654168848349, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:42.257, 2654168850882, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 9524, 1, 2020/12/01, 17:08:42.257, 2654168854398, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.258, 2654168857967, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.258, 2654168863025, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.259, 2654168867717, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.259, 2654168870475, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 9524, 1, 2020/12/01, 17:08:42.259, 2654168874050, datacollector.dll, Program.Main: exiting datacollector process.
