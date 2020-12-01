@@ -1,0 +1,74 @@
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.126, 1553316087484, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,52800,--parentprocessid,16200,--diag,C:\Users\User\source\repos\VVSzadaca2\eParking\Testovi za zadatak 3a\bin\Debug\fine-code-coverage\_outputfolder\diagnostics.datacollector.20-12-01_00-59-09_00393_4.log,--tracelevel,4
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.132, 1553316112732, datacollector.dll, DataCollector: Monitoring parent process with id: '16200'
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.140, 1553316196705, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:52800 
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.155, 1553316348001, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.169, 1553316488411, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.170, 1553316490469, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.245, 1553317242053, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.248, 1553317273178, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Users\\User\\source\\repos\\VVSzadaca2\\eParking\\Testovi za zadatak 3a\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\3.1.300\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\3.1.300\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Users\\User\\source\\repos\\VVSzadaca2\\eParking\\Testovi za zadatak 3a\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Users\\User\\source\\repos\\VVSzadaca2\\eParking\\Testovi za zadatak 3a\\bin\\Debug\\fine-code-coverage\\Testovi za zadatak 3a.dll"
+  ]
+}
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.287, 1553317669985, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.288, 1553317676832, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\3.1.300\Extensions'.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.288, 1553317678328, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.293, 1553317729670, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.294, 1553317732112, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.294, 1553317734006, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.294, 1553317735249, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.295, 1553317740825, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\3.1.300\Extensions,C:\Program Files\dotnet\sdk\3.1.300
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.296, 1553317754171, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.296, 1553317756313, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.296, 1553317757547, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.296, 1553317758729, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.296, 1553317760117, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.297, 1553317761827, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\3.1.300\Extensions,C:\Program Files\dotnet\sdk\3.1.300
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.297, 1553317763215, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\3.1.300\Extensions,C:\Program Files\dotnet\sdk\3.1.300
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.297, 1553317767299, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.298, 1553317776659, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 9656, 1, 2020/12/01, 00:59:09.299, 1553317783464, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.299, 1553317788964, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.300, 1553317795245, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 9656, 1, 2020/12/01, 00:59:09.301, 1553317808997, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.302, 1553317812553, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\3.1.300\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.302, 1553317813895, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.302, 1553317815045, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.302, 1553317816137, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:09.302, 1553317817255, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.303, 1553317828416, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 9656, 1, 2020/12/01, 00:59:09.304, 1553317830451, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.308, 1553317873646, datacollector.dll, Listening on Endpoint : 127.0.0.1:52802
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.313, 1553317925562, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:09.351, 1553318300951, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 14572
+}
+TpTrace Information: 0 : 9656, 5, 2020/12/01, 00:59:09.526, 1553320053146, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 9656, 5, 2020/12/01, 00:59:09.526, 1553320057120, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.874, 1553323531543, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.896, 1553323758264, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.897, 1553323762271, datacollector.dll, DataCollectionTestCaseEventHandler: Test case started.
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.963, 1553324427438, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.966, 1553324458336, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 9656, 7, 2020/12/01, 00:59:09.979, 1553324587351, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.984, 1553324634311, datacollector.dll, DataCollectionTestCaseEventHandler: Test case completed
+TpTrace Information: 0 : 9656, 7, 2020/12/01, 00:59:09.995, 1553324749532, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.065, 1553325448725, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.066, 1553325455334, datacollector.dll, Blame Collector : Session End
+TpTrace Error: 0 : 9656, 1, 2020/12/01, 00:59:10.066, 1553325458367, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.066, 1553325459859, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325461109, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325462693, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325464124, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325466165, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325468144, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.067, 1553325469321, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 9656, 1, 2020/12/01, 00:59:10.068, 1553325470423, datacollector.dll, Program.Main: exiting datacollector process.

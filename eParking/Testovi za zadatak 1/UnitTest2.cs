@@ -22,7 +22,7 @@ namespace Testovi_za_zadatak_1
         public void TestRezervacijeSaIsteklomClanarinom()
         {
             Clan clan = new Clan(DateTime.Now); //postavlja istek clanarine na trenutni momenat
-            clan.RezervišiMjesto(l);
+            clan.RezervišiMjesto(l); 
         }
         [TestMethod]
         public void TestUspjesneRezervacije()
@@ -37,7 +37,7 @@ namespace Testovi_za_zadatak_1
         {
             Clan c = new Clan(new DateTime(2021, 12, 25));
             c.RezervišiMjesto(l);
-            c.RezervišiMjesto(l);
+            c.RezervišiMjesto(l); 
         }
     }
 }

@@ -107,7 +107,7 @@ namespace eParking
                 l.DajTrenutniBrojSlobodnogMjesta();
                 ((Clan)k).RezervišiMjesto(l);
             } catch (InvalidOperationException e) {
-                Console.WriteLine("Nema slobodnih mjesta!", e);
+                throw e;
             }
         }
 
@@ -132,8 +132,8 @@ namespace eParking
                 c.RezervisanoParkingMjesto.Item2.OslobodiMjesto();
                 c.OtkažiRezervaciju();
             }
-            else
-                throw new InvalidOperationException("Još uvijek nisu prošla 24 sata!");
+            else 
+                throw new InvalidOperationException("Još uvijek nisu prošla 24 sata!"); 
         }
 
         #endregion

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7206999999999999" branch-rate="0.46869999999999995" version="1.9" timestamp="1606778703" lines-covered="191" lines-valid="265" branches-covered="45" branches-valid="96">
+<coverage line-rate="0.7206999999999999" branch-rate="0.46869999999999995" version="1.9" timestamp="1606780753" lines-covered="191" lines-valid="265" branches-covered="45" branches-valid="96">
   <sources>
-    <source>C:\Users\Korisnik\</source>
+    <source>C:\Users\User\</source>
   </sources>
   <packages>
     <package name="eParking" line-rate="0.6803" branch-rate="0.46869999999999995" complexity="123">
       <classes>
-        <class name="eParking.Clan" filename="Documents\VVSzadaca2\eParking\eParking\Clan.cs" line-rate="0.7428" branch-rate="0.5" complexity="19">
+        <class name="eParking.Clan" filename="source\repos\VVSzadaca2\eParking\eParking\Clan.cs" line-rate="0.7428" branch-rate="0.5" complexity="19">
           <methods>
             <method name="get_Password" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -158,7 +158,7 @@
             <line number="69" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="eParking.Korisnik" filename="Documents\VVSzadaca2\eParking\eParking\Korisnik.cs" line-rate="0.7187" branch-rate="0.41659999999999997" complexity="19">
+        <class name="eParking.Korisnik" filename="source\repos\VVSzadaca2\eParking\eParking\Korisnik.cs" line-rate="0.7187" branch-rate="0.41659999999999997" complexity="19">
           <methods>
             <method name="get_BrojLogovanja" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -298,7 +298,7 @@
             <line number="71" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="eParking.Lokacija" filename="Documents\VVSzadaca2\eParking\eParking\Lokacija.cs" line-rate="0.75" branch-rate="0.5" complexity="23">
+        <class name="eParking.Lokacija" filename="source\repos\VVSzadaca2\eParking\eParking\Lokacija.cs" line-rate="0.75" branch-rate="0.5" complexity="23">
           <methods>
             <method name="get_Naziv" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -496,7 +496,7 @@
             <line number="77" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="eParking.Parking" filename="Documents\VVSzadaca2\eParking\eParking\Parking.cs" line-rate="0.5394" branch-rate="0.44439999999999996" complexity="39">
+        <class name="eParking.Parking" filename="source\repos\VVSzadaca2\eParking\eParking\Parking.cs" line-rate="0.5394" branch-rate="0.44439999999999996" complexity="39">
           <methods>
             <method name="get_Korisnici" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -824,7 +824,7 @@
             <line number="36" hits="4" branch="False" />
           </lines>
         </class>
-        <class name="eParking.Transakcija" filename="Documents\VVSzadaca2\eParking\eParking\Transakcija.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="eParking.Transakcija" filename="source\repos\VVSzadaca2\eParking\eParking\Transakcija.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="DajVrijemeDolaska" signature="(eParking.Vozilo)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -838,7 +838,7 @@
             <line number="16" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="eParking.Vozilo" filename="Documents\VVSzadaca2\eParking\eParking\Vozilo.cs" line-rate="0.8" branch-rate="0.5" complexity="22">
+        <class name="eParking.Vozilo" filename="source\repos\VVSzadaca2\eParking\eParking\Vozilo.cs" line-rate="0.8" branch-rate="0.5" complexity="22">
           <methods>
             <method name="get_Vrsta" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -984,7 +984,7 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoviTestovi" filename="Documents\VVSzadaca2\eParking\Unit Testovi\NoviTestovi.cs" line-rate="0.9333" branch-rate="1" complexity="4">
+        <class name="Unit_Testovi.NoviTestovi" filename="source\repos\VVSzadaca2\eParking\Unit Testovi\NoviTestovi.cs" line-rate="0.9333" branch-rate="1" complexity="4">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="0.8181" branch-rate="1" complexity="1">
               <lines>
