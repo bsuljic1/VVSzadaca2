@@ -22,7 +22,6 @@ namespace Unit_testovi_za_zadatak_3
             lokacija1 = new Lokacija("Gorazde", new List<string> { "Nurije Rasidkadica" }, 3, 50);
             parking.RadSaLokacijom(lokacija1, 0);
             parking.DodajKorisnika(clan, true);
-
         }
 
 
