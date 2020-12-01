@@ -6,7 +6,8 @@ using System.Text;
 
 namespace Data_driven_testovi_za_zadatak_3
 {
-    class DataDrivenTestLokacija
+    [TestClass]
+        public class DataDrivenTestLokacija
     {
         static IEnumerable<object[]> ValidData
         {
@@ -27,10 +28,10 @@ namespace Data_driven_testovi_za_zadatak_3
             {
                 return new[]
                 {
-                     new object[] { "ime", new List<string> (), 2, 50},
-                    new object[] { "gorazde", new List<string> (), 3, 30},
-                    new object[] { "travnik", new List<string> (), 1, 100},
-                    new object[] { "sarajevo", new List<string> (), 2, 50}
+                     new object[] { "ime", null, 2, 50},
+                    new object[] { "gorazde", null, 3, 30},
+                    new object[] { "travnik", null, 1, 100},
+                    new object[] { "sarajevo", null, 2, 50}
                 };
             }
         }
@@ -52,7 +53,7 @@ namespace Data_driven_testovi_za_zadatak_3
         /// </summary>
         [TestMethod]
         [DynamicData("InvalidData")]
-        [ExpectedException(typeof(FormatException))]
+        [ExpectedException(typeof(NullReferenceException))]
         public void TestNevalidnihPodataka(string name, List<string> streets, double price, int capacity)
         {
             Lokacija lokacija = new Lokacija(name, streets, price, capacity);
