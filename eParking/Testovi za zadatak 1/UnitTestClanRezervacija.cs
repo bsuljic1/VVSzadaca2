@@ -8,7 +8,7 @@ namespace Testovi_za_zadatak_1
 {
     //Amina Šiljak
     [TestClass]
-    public class UnitTest2
+    public class UnitTestClanRezervacija
     {
         static Lokacija l;
         [ClassInitialize()]
@@ -17,13 +17,19 @@ namespace Testovi_za_zadatak_1
             List<string> listaUlica = new List<string> { "Bosanska bb" };
             l = new Lokacija("Travnik", listaUlica, 2, 100);
         }
+        /// <summary>
+        /// Testira se rezervacija sa isteklom clanarinom
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(Exception))]
         public void TestRezervacijeSaIsteklomClanarinom()
         {
-            Clan clan = new Clan(DateTime.Now); //postavlja istek clanarine na trenutni momenat
+            Clan clan = new Clan(DateTime.Now); //postavlja istek clanarine na ovaj trenutak
             clan.RezervišiMjesto(l); 
         }
+        /// <summary>
+        /// Testira se uspjesna rezervacija 
+        /// </summary>
         [TestMethod]
         public void TestUspjesneRezervacije()
         {
@@ -31,6 +37,9 @@ namespace Testovi_za_zadatak_1
             c.RezervišiMjesto(l);
             Assert.AreEqual(c.RezervisanoParkingMjesto.Item2, l);
         }
+        /// <summary>
+        /// Testira se rezervacija istog clana dva puta
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(Exception))]
         public void TestPonovneRezervacije()

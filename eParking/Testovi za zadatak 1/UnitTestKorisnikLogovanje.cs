@@ -5,14 +5,20 @@ namespace Testovi_za_zadatak_1
 {
     //Amina Šiljak
     [TestClass]
-    public class UnitTest1
+    public class UnitTestKorisnikLogovanje
     {
+        /// <summary>
+        /// Testira se uspjesno logovanje
+        /// </summary>
         [TestMethod]
         public void TestUpjesnogLogovanjaPrviPut()
         {
             Korisnik k = new Korisnik();
             Assert.AreEqual(k.UlogujSe(), true);
         }
+        /// <summary>
+        /// Testira se neuspjesno logovanje
+        /// </summary>
         [TestMethod]
         public void TestNeuspjesnogLogovanja()
         {
