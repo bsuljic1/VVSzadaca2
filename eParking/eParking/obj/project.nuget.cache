@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "02CNbvY3DiHdkgtkpJPSamc0TpjEVGZr35lYSNJQaPzXy1ksvY7/3QXvRwpQXYDVTfSw3iukrWeJi719dmNmQA==",
+  "dgSpecHash": "eBaUwPtMYXPjlpHZ6i8eJS43mtY5ZeJCplXXdPAvdLF7W5nKq0VN5HB7qUqLeaPVXn6yTvcprzIPFnDst7AFYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Korisnik\\Documents\\VVSzadaca2\\eParking\\eParking\\eParking.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
