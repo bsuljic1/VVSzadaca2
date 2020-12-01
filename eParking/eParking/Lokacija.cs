@@ -68,7 +68,6 @@ namespace eParking
             Naziv = name;
             if (streets == null)
                 throw new NullReferenceException("Morate specificirati barem jednu ulicu!");
-
             ulice = streets;
             Cijena = price;
             Kapacitet = capacity;

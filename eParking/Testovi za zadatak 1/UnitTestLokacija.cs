@@ -39,7 +39,6 @@ namespace Testovi_za_zadatak_1
             Clan clan2 = new Clan(DateTime.Now);
             lokacija1.ZauzmiMjesto(clan2);
         }
-
         /// <summary>
         /// Testira rezervirsanje parking mjesta ukoliko su sva mjesta na datoj lokaciji zauzeta
         /// </summary>
@@ -49,9 +48,7 @@ namespace Testovi_za_zadatak_1
         {
             lokacija1.Kapacitet = 0;
             lokacija1.ZauzmiMjesto(clan);
-
-        }
-
+         }
     }
 }
 
