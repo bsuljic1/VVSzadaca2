@@ -10,6 +10,49 @@ namespace Unit_testovi_za_zadatak_3
     {
         static Clan clan;
         static Lokacija lokacija1;
+
+        static IEnumerable<object[]> ValidData
+        {
+            get
+            {
+                return new[]
+                {
+                    new object[] { "ime", new List<string> { "Voznik 2"}, 2, 50},
+                    new object[] { "gorazde", new List<string> { "Trg Branilaca bb"}, 3, 30},
+                    new object[] { "travnik", new List<string> { "Bosanska bb"}, 1, 100},
+                    new object[] { "sarajevo", new List<string> { "Ferhadija bb"}, 2, 50}
+                };
+            }
+        }
+        static IEnumerable<object[]> InvalidData1
+        {
+            get
+            {
+                return new[]
+                {
+                     new object[] { "ime", null, 2, 50},
+                    new object[] { "gorazde", null, 3, 30},
+                    new object[] { "travnik", null, 1, 100},
+                    new object[] { "sarajevo", null, 2, 50}
+                };
+            }
+        }
+
+        static IEnumerable<object[]> InvalidData2
+        {
+            get
+            {
+                return new[]
+                {
+                    new object[] { "", new List<string> { "Voznik 2"}, 2, 50},
+                    new object[] { "gorazde", new List<string> { "Trg Branilaca bb"}, -30, 30},
+                    new object[] { "travnik", new List<string> { "Bosanska bb"}, 100, 100},
+                    new object[] { "sarajevo", new List<string> { "Ferhadija bb"}, 2, -5}
+                };
+            }
+        }
+
+
         [ClassInitialize()]
         public static void Inicijalizacija(TestContext context)
         {
@@ -17,6 +60,42 @@ namespace Unit_testovi_za_zadatak_3
             lokacija1 = new Lokacija("Bugojno", new List<string> { "Voznik 5" }, 5, 20);
 
         }
+
+        /// <summary>
+        /// Lokacija bi se trebala ispravno kreirati - provjera da li se u konstruktoru došlo
+        /// do posljednje linije gdje se inicijalizuje kapacitet
+        /// </summary>
+        [TestMethod]
+        [DynamicData("ValidData")]
+        public void TestValidnihPodatakaLokacija1(string name, List<string> streets, double price, int capacity)
+        {
+            Lokacija lokacija = new Lokacija(name, streets, price, capacity);
+            Assert.AreEqual(lokacija.Kapacitet, capacity);
+        }
+        /// <summary>
+        /// Lokacija se ne bi trebala kreirati - treba se baciti izuzetak jer nije specificirana nijedna ulica
+        /// </summary>
+        [TestMethod]
+        [DynamicData("InvalidData1")]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void TestNevalidnihPodatakaLokacija(string name, List<string> streets, double price, int capacity)
+        {
+            Lokacija lokacija = new Lokacija(name, streets, price, capacity);
+        }
+
+        /// <summary>
+        /// Lokacija se ne bi trebala kreirati - setteri za cijenu, kapacitet i naziv trebaju baciti ArgumentException
+        /// </summary>
+        [TestMethod]
+        [DynamicData("InvalidData2")]
+        [ExpectedException(typeof(ArgumentException))]
+        public void TestNevalidnihPodatakaLokacija2(string name, List<string> streets, double price, int capacity)
+        {
+            Lokacija lokacija = new Lokacija(name, streets, price, capacity);
+        }
+
+
+
         /// <summary>
         /// Testira metodu DajTrenutniBrojSlobodnogMjesta kada dođe do situacije kada su sva mjesta zauzeta
         /// </summary>
@@ -25,7 +104,8 @@ namespace Unit_testovi_za_zadatak_3
         public void TestIzuzetakPriSvimZauzetimMjestima()
         {
             lokacija1.Kapacitet = 1; ///budući da će se pri pozivu metode brojač uvećati za 1
-            Assert.AreEqual(1,lokacija1.DajTrenutniBrojSlobodnogMjesta()); }
+            Assert.AreEqual(1,lokacija1.DajTrenutniBrojSlobodnogMjesta()); 
+        }
 
         /// <summary>
         /// Testira oslobađanje zauzetog mjesta

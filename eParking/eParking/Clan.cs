@@ -71,7 +71,7 @@ namespace eParking
         #endregion
 
         #region Metode
-
+        //Berina Suljic
         /// <summary>
         /// Metoda u kojoj se vrši rezervacija parking mjesta za korisnika.
         /// Ako je osobi istekla članarina, dolazi do pojave izuzetka, kao i u slučaju
