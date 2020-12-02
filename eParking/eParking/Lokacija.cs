@@ -96,9 +96,8 @@ namespace eParking
         /// <param name="c"></param>
         public void ZauzmiMjesto(Clan c)
         {
-            c.ProvjeriJeLiČlanarinaIstekla();
-            if (c.Status == Status.Neaktivna) throw new Exception();
-            if (brojač < kapacitet) DajTrenutniBrojSlobodnogMjesta();
+            // ovdje se nece provjeravati da li je clanarina istekla jer ce metoda klase Clan baciti izuzetak ako jeste
+            if (brojač < kapacitet) c.RezervišiMjesto(this);
             else throw new Exception();
         }
 

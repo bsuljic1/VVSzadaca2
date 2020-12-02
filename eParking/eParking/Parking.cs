@@ -95,13 +95,9 @@ namespace eParking
         public void RezervišiParking(Korisnik k, Lokacija l)
         {
             if (k.GetType() != typeof(Clan))
-            {
                 throw new Exception();
-            }
-            if(((Clan)k).RezervisanoParkingMjesto != null) 
-            {
+            if(((Clan)k).RezervisanoParkingMjesto != null)
                 throw new Exception();
-            }
             try{
                 ((Clan)k).RezervišiMjesto(l);
             } catch (InvalidOperationException e) {
