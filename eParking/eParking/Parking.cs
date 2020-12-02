@@ -96,8 +96,6 @@ namespace eParking
         {
             if (k.GetType() != typeof(Clan))
                 throw new Exception();
-            if(((Clan)k).RezervisanoParkingMjesto != null)
-                throw new Exception();
             try{
                 ((Clan)k).RezervišiMjesto(l);
             } catch (InvalidOperationException e) {
